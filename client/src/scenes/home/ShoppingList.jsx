@@ -20,16 +20,18 @@ const ShoppingList = () => {
 
   async function getItems() {
     const items = await fetch(
-      "http://localhost:2000/api/items?populate=image",
+      "http://localhost:1337/api/items?populate=image",
       { method: "GET" }
     );
     const itemsJson = await items.json();
     dispatch(setItems(itemsJson.data));
+
   }
 
   useEffect(() => {
     getItems();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    console.log(items)
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps  
 
   const topRatedItems = items.filter(
     (item) => item.attributes.category === "topRated"
@@ -43,7 +45,7 @@ const ShoppingList = () => {
 
   return (
     <Box width="80%" margin="80px auto">
-      <Typography variant="h3" textAlign="center">
+      <Typography variant="h3" textAlign="center" style={{ color: 'red' }}>
         Our Featured <b>Products</b>
       </Typography>
       <Tabs
