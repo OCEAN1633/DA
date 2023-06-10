@@ -24,47 +24,45 @@ function Footer() {
             mb="30px"
             color={shades.secondary[500]}
           >
-            ECOMMER
+            OCEANS
           </Typography>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
+          OCEANS  là nền tảng thương mại điện tử hàng đầu tại Vinh.Ra mắt năm 2023, nền tảng thương mại OCEANS được xây dựng nhằm cung cấp cho người dùng những trải nghiệm dễ dàng, an toàn và nhanh chóng khi mua sắm trực tuyến thông qua hệ thống hỗ trợ thanh toán và vận hành vững mạnh.
+          Chúng tôi có niềm tin mạnh mẽ rằng trải nghiệm mua sắm trực tuyến phải đơn giản, dễ dàng và mang đến cảm xúc vui thích. Niềm tin này truyền cảm hứng và thúc đẩy chúng tôi mỗi ngày tại OCEANS .
           </div>
         </Box>
 
         <Box>
           <Typography variant="h4" fontWeight="bold" mb="30px">
-            About Us
+          Về chúng tôi
           </Typography>
-          <Typography mb="30px">Careers</Typography>
-          <Typography mb="30px">Our Stores</Typography>
-          <Typography mb="30px">Terms & Conditions</Typography>
-          <Typography mb="30px">Privacy Policy</Typography>
+          <Typography mb="30px">Nghề nghiệp</Typography>
+          <Typography mb="30px">Cửa hàng của chúng tôi</Typography>
+          <Typography mb="30px">Điều khoản và điều kiện</Typography>
+          <Typography mb="30px">Chính sách bảo mật</Typography>
         </Box>
 
         <Box>
           <Typography variant="h4" fontWeight="bold" mb="30px">
-            Customer Care
+          Chăm sóc khách hàng
           </Typography>
-          <Typography mb="30px">Help Center</Typography>
-          <Typography mb="30px">Track Your Order</Typography>
-          <Typography mb="30px">Corporate & Bulk Purchasing</Typography>
-          <Typography mb="30px">Returns & Refunds</Typography>
+          <Typography mb="30px">Trung tâm trợ giúp</Typography>
+          <Typography mb="30px">Theo dõi đơn hàng của bạn</Typography>
+          <Typography mb="30px">Doanh nghiệp</Typography>
+          <Typography mb="30px">Trả lại & Hoàn tiền</Typography>
         </Box>
 
         <Box width="clamp(20%, 25%, 30%)">
           <Typography variant="h4" fontWeight="bold" mb="30px">
-            Contact Us
+          Liên hệ chúng tôi
           </Typography>
           <Typography mb="30px">
-            50 north Whatever Blvd, Washington, DC 10501
+          19 Nguyen Kiem Street, Vinh City
           </Typography>
           <Typography mb="30px" sx={{ wordWrap: "break-word" }}>
-            Email: mredwardroh@gmail.com
+            Email: nvchung3570@gmail.com
           </Typography>
-          <Typography mb="30px">(222)333-4444</Typography>
+          <Typography mb="30px">0336093570</Typography>
         </Box>
       </Box>
     </Box>

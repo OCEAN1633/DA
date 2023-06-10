@@ -30,7 +30,6 @@ const ShoppingList = () => {
 
   useEffect(() => {
     getItems();
-    console.log(items)
   }, []); // eslint-disable-line react-hooks/exhaustive-deps  
 
   const topRatedItems = items.filter(
@@ -46,7 +45,7 @@ const ShoppingList = () => {
   return (
     <Box width="80%" margin="80px auto">
       <Typography variant="h3" textAlign="center" style={{ color: 'red' }}>
-        Our Featured <b>Products</b>
+        SẢN PHẨM NỔI BẬT <b>OCEANS</b>
       </Typography>
       <Tabs
         textColor="primary"
@@ -62,10 +61,10 @@ const ShoppingList = () => {
           },
         }}
       >
-        <Tab label="ALL" value="all" />
-        <Tab label="NEW ARRIVALS" value="newArrivals" />
-        <Tab label="BEST SELLERS" value="bestSellers" />
-        <Tab label="TOP RATED" value="topRated" />
+        <Tab label="Tất cả" value="all" />
+        <Tab label="Mới" value="newArrivals" />
+        <Tab label="BÁN CHẠY NHẤT" value="bestSellers" />
+        <Tab label="HÀNG ĐẦU" value="topRated" />
       </Tabs>
       <Box
         margin="0 auto"
